@@ -93,8 +93,8 @@ var Utility = (function() {
    * http://stackoverflow.com/a/5366862/879081
    *
    * @public
-   * @number {number}
-   * @n {number}
+   * @num {number}
+   * @pad {number}
    * @str {string}
    * @returns {string}
    */

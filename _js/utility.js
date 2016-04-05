@@ -4,7 +4,7 @@ var Utility = (function() {
   /**
    * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
    *
-   * @private
+   * @public
    * @author Todd Motto
    * @link https://github.com/toddmotto/foreach
    * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList

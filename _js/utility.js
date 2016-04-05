@@ -26,6 +26,8 @@ var Utility = (function() {
     }
   };
 
+
+
   /**
    * Tests whether a supplied variable is an Array.
    * http://stackoverflow.com/a/4775737/879081

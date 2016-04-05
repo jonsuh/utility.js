@@ -31,8 +31,8 @@ var Utility = (function() {
    * http://stackoverflow.com/a/4775737/879081
    *
    * @public
-   * @param {array} array
-   * @returns {boolean}
+   * @param {Array} array
+   * @returns {Boolean}
    */
   var isArray = function(array){
     return Object.prototype.toString.call(array) === "[object Array]"
@@ -44,8 +44,8 @@ var Utility = (function() {
    * Tests if variable is a boolean.
    *
    * @public
-   * @param {boolean} bool
-   * @returns {boolean}
+   * @param {Boolean} bool
+   * @returns {Boolean}
    */
   var isBoolean = function(bool){
     return (typeof bool === "boolean");
@@ -59,7 +59,7 @@ var Utility = (function() {
    *
    * @public
    * @param {object} el
-   * @returns {boolean}
+   * @returns {Boolean}
    */
   var isDomElement = function(el){
     return typeof HTMLElement === "object" ? el instanceof HTMLElement : // DOM2
@@ -73,8 +73,8 @@ var Utility = (function() {
    * http://stackoverflow.com/a/3885844/879081
    *
    * @public
-   * @param {number} float
-   * @returns {boolean}
+   * @param {Number} float
+   * @returns {Boolean}
    */
   var isFloat = function(float){
     return float === +float && float !== (float|0);
@@ -87,8 +87,8 @@ var Utility = (function() {
    * http://stackoverflow.com/a/14794066/879081
    *
    * @public
-   * @param {number} value
-   * @returns {boolean}
+   * @param {Number} value
+   * @returns {Boolean}
    */
   var isInt = function(value){
     var x;
@@ -118,10 +118,10 @@ var Utility = (function() {
    * http://stackoverflow.com/a/5366862/879081
    *
    * @public
-   * @param {number} num
-   * @param {number} pad
-   * @param {string} str
-   * @returns {string}
+   * @param {Number} num
+   * @param {Number} pad
+   * @param {String} str
+   * @returns {String}
    */
   var padLeft = function(num, pad, str) {
     return Array(pad - String(num).length + 1).join(str || "0") + num;
@@ -134,8 +134,8 @@ var Utility = (function() {
    * (For IE>=9 str.trim())
    *
    * @public
-   * @param {string} str
-   * @returns {string}
+   * @param {String} str
+   * @returns {String}
    */
   var trim = function(str){
     return str.replace(/^\s+|\s+$/g,"");
@@ -147,7 +147,7 @@ var Utility = (function() {
    * Gets browser prefixed event string for when a CSS animation ends
    *
    * @public
-   * returns {string}
+   * returns {String}
    */
   var whichAnimationEnd = function() {
     var t,
@@ -173,7 +173,7 @@ var Utility = (function() {
    * Gets browser prefixed event string for when a CSS transition ends
    *
    * @public
-   * @returns {string}
+   * @returns {String}
    */
   var whichTransitionEnd =function() {
     var t,
@@ -199,9 +199,10 @@ var Utility = (function() {
    * Opens popup window
    *
    * @public
-   * @param {string} url
-   * @param {number} width
-   * @param {number} height
+   * @param {String} url
+   * @param {Number} width
+   * @param {Number} height
+   * @returns {}
    */
   var windowOpen = function(url, width, height) {
     var left = (screen.width / 2) - (width / 2);

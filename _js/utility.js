@@ -93,9 +93,9 @@ var Utility = (function() {
    * http://stackoverflow.com/a/5366862/879081
    *
    * @public
-   * @num {number}
-   * @pad {number}
-   * @str {string}
+   * @param num {number}
+   * @param pad {number}
+   * @param str {string}
    * @returns {string}
    */
   var padLeft = function(num, pad, str) {
@@ -146,9 +146,9 @@ var Utility = (function() {
 
   /**
    * Gets browser prefixed event string for when a CSS transition ends
-   * @public
    *
-   * returns {string}
+   * @public
+   * @returns {string}
    */
   var whichTransitionEnd =function() {
     var t,

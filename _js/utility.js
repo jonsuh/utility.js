@@ -84,7 +84,7 @@ var Utility = (function() {
 
 
   /**
-   * Tests whether a supplied variable is an Array.
+   * Tests if variable is an Array.
    * http://stackoverflow.com/a/4775737/879081
    *
    * @public
@@ -111,7 +111,7 @@ var Utility = (function() {
 
 
   /**
-   * Tests whether a supplied argument is a DOM Element
+   * Tests if argument is a DOM Element
    * http://stackoverflow.com/a/384380/879081
    *
    * @public

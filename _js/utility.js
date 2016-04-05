@@ -6,7 +6,7 @@ var Utility = (function() {
    * http://stackoverflow.com/a/4775737/879081
    *
    * @public
-   * @param {Array} array
+   * @param {array} array
    * @returns {boolean}
    */
   var isArray = function(array){
@@ -93,9 +93,9 @@ var Utility = (function() {
    * http://stackoverflow.com/a/5366862/879081
    *
    * @public
-   * @param num {number}
-   * @param pad {number}
-   * @param str {string}
+   * @param {number} num
+   * @param {number} pad
+   * @param {string} str
    * @returns {string}
    */
   var padLeft = function(num, pad, str) {
@@ -109,8 +109,8 @@ var Utility = (function() {
    * (For IE>=9 str.trim())
    *
    * @public
-   * @param {string} str The input string
-   * @returns {string} The trimmed string
+   * @param {string} str
+   * @returns {string}
    */
   var trim = function(str){
     return str.replace(/^\s+|\s+$/g,"");

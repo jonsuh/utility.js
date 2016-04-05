@@ -1,15 +1,15 @@
 var gulp         = require('gulp');
 var browserSync  = require('browser-sync');
-var autoprefixer = require('gulp-autoprefixer');
-var concat       = require('gulp-concat');
-var csscomb      = require('gulp-csscomb');
-var cssnano      = require('gulp-cssnano');
+// var autoprefixer = require('gulp-autoprefixer');
+// var concat       = require('gulp-concat');
+// var csscomb      = require('gulp-csscomb');
+// var cssnano      = require('gulp-cssnano');
 var eslint       = require('gulp-eslint');
 var notify       = require('gulp-notify');
 var plumber      = require('gulp-plumber');
-var sass         = require('gulp-sass');
-var sourcemaps   = require('gulp-sourcemaps');
-var uglify       = require('gulp-uglify');
+// var sass         = require('gulp-sass');
+// var sourcemaps   = require('gulp-sourcemaps');
+// var uglify       = require('gulp-uglify');
 
 var onError = function(err) {
   notify.onError({

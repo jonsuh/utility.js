@@ -90,6 +90,7 @@ var Utility = (function() {
 
   /**
    * Left pad a number with 0s or a custom string
+   * http://stackoverflow.com/a/5366862/879081
    *
    * @public
    * @number {number}

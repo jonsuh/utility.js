@@ -52,7 +52,7 @@ var Utility = (function() {
     var fn = hasClass(elem, c) ? removeClass : addClass;
 
     fn(elem, c);
-  }
+  };
 
 
 
